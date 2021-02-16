@@ -15,22 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for CharacterSelect.xaml
+    /// Interaction logic for CreatingAccount.xaml
     /// </summary>
-    public partial class CharacterSelect : Window
+    public partial class CreatingAccount : Window
     {
-        private string zalogowany1;
-        public CharacterSelect(string info)
+        public CreatingAccount()
         {
-            zalogowany1 = info;
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow characterSelect = new MainWindow();
-            characterSelect.Show();
-            this.Close();
         }
     }
 }

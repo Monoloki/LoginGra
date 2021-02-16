@@ -15,12 +15,14 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string zalogowany;
+        private string zalogowany;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -47,7 +49,8 @@ namespace WpfApp1
                         ea = String.Concat(ea.Where(c => !Char.IsWhiteSpace(c)));
                         if (ea == Password.Text.ToString())
                             {
-                            CharacterSelect characterSelect = new CharacterSelect();
+                            zalogowany = y;
+                            CharacterSelect characterSelect = new CharacterSelect(zalogowany);
                             characterSelect.Show();
                             this.Close();
                             }
@@ -59,7 +62,15 @@ namespace WpfApp1
                     }
                 }
         }
-           
+
+        private void CreateAccount_Click(object sender, RoutedEventArgs e)
+        {
+            CreatingAccount creatingAccount = new CreatingAccount();
+            creatingAccount.Show();
+            this.Close();
+        }
+
+
     }
 }
 
