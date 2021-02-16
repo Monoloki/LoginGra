@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="CreatingAccount" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Powrót" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Center" Height="23" Margin="341,149,331,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="ReapetHaslo" HorizontalAlignment="Center" Height="23" Margin="341,230,331,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="241,146,0,0" VerticalAlignment="Top"/>
+        <Label Content="Powtórz Haslo" HorizontalAlignment="Left" Margin="213,227,0,0" VerticalAlignment="Top"/>
+        <Label Content="Haslo" HorizontalAlignment="Left" Margin="240,189,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Haslo" HorizontalAlignment="Center" Height="23" Margin="341,189,331,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <Button Content="Utwórz" HorizontalAlignment="Left" Margin="341,275,0,0" VerticalAlignment="Top" Width="120" Height="33" Click="Button_Click_1"/>
+
     </Grid>
 </Window>

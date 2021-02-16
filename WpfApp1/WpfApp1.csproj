@@ -67,6 +67,9 @@
     <Compile Include="CharacterSelect.xaml.cs">
       <DependentUpon>CharacterSelect.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CreatingAccount.xaml.cs">
+      <DependentUpon>CreatingAccount.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Frakcje.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -88,6 +91,10 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Page Include="CharacterSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreatingAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

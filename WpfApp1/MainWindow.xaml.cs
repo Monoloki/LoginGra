@@ -41,7 +41,7 @@ namespace WpfApp1
                     }
                     else
                     {  
-                        string y = query.Login;
+                    string y = query.Login;
                     y = String.Concat(y.Where(c => !Char.IsWhiteSpace(c)));
                     if (y == Login1.Text.ToString())
                         {
