@@ -7,15 +7,23 @@
         mc:Ignorable="d"
         Title="CharacterSelect" Height="450" Width="800">
     <Grid>
-        <Label Content="Wybór postaci" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="159" Width="272" FontSize="40"/>
+
+        <Grid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Background="White" >
+            <Image Margin="118,71,491,10" Source="Image1.png" Stretch="Fill"/>
+            <Button Content="Wejdz Do świata" HorizontalAlignment="Left" Margin="564,362,0,0" VerticalAlignment="Top" Width="113" Height="33" Click="Button_Click_2"/>
+        </Grid>
+
+        <Label Content="Wybór postaci" HorizontalAlignment="Left" Margin="77,13,0,0" VerticalAlignment="Top" Height="67" Width="267" FontSize="40" FontFamily="Segoe UI Emoji" Foreground="Black"/>
         <Button Content="Wyloguj" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Stwórz postać" HorizontalAlignment="Left" Margin="564,328,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_1"/>
         <TextBox x:Name="Nazwa_postaci" HorizontalAlignment="Left" Height="23" Margin="564,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Nazwa" HorizontalAlignment="Left" Margin="496,203,0,0" VerticalAlignment="Top"/>
-        <Label Content="Klasa" HorizontalAlignment="Left" Margin="496,239,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa" HorizontalAlignment="Left" Margin="496,203,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label Content="Klasa" HorizontalAlignment="Left" Margin="496,239,0,0" VerticalAlignment="Top" Background="White" Width="45"/>
         <TextBox x:Name="Klasa" HorizontalAlignment="Left" Height="23" Margin="564,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Frakcja" HorizontalAlignment="Left" Margin="496,282,0,0" VerticalAlignment="Top"/>
+        <Label Content="Frakcja" HorizontalAlignment="Left" Margin="496,282,0,0" VerticalAlignment="Top" Background="White" Width="45"/>
         <TextBox x:Name="Frakcja" HorizontalAlignment="Left" Height="23" Margin="564,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Image Margin="496,25,191,239" Source="Klasy.PNG" Stretch="Fill"/>
+        <Image Margin="657,35,56,339" Source="frakcje.PNG" Stretch="Fill"/>
 
     </Grid>
 </Window>

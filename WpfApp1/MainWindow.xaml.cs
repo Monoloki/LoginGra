@@ -63,14 +63,12 @@ namespace WpfApp1
                 }
         }
 
-        private void CreateAccount_Click(object sender, RoutedEventArgs e)
+        private void CreateAccount_Click_1(object sender, RoutedEventArgs e)
         {
             CreatingAccount creatingAccount = new CreatingAccount();
             creatingAccount.Show();
             this.Close();
         }
-
-
     }
 }
 

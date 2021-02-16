@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.World"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="World" Height="450" Width="800">
+    <Grid>
+        <Button Content="Powrót" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="87" Margin="10,0,0,384" Click="Button_Click" Height="25"/>
+        <Image Margin="76,88,73,84" Source="Świat w naprawie.PNG" Stretch="Fill"/>
+
+    </Grid>
+</Window>

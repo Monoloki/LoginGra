@@ -12,7 +12,8 @@
         <TextBox x:Name="Login1" HorizontalAlignment="Left" Height="23" Margin="340,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Hasło" HorizontalAlignment="Left" Margin="267,228,0,0" VerticalAlignment="Top"/>
         <Label Content="Login" HorizontalAlignment="Left" Margin="267,161,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="CreateAccount" Content="Utwórz konto" HorizontalAlignment="Left" Margin="10,385,0,0" VerticalAlignment="Top" Width="92" Height="24" Click="CreateAccount_Click"/>
+        <Button x:Name="CreateAccount" Content="Utwórz konto" HorizontalAlignment="Left" Margin="21,372,0,0" VerticalAlignment="Top" Width="92" Height="24" Click="CreateAccount_Click_1"/>
+        <Image Margin="242,34,232,291" Source="Image6.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

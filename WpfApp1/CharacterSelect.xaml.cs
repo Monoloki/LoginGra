@@ -31,7 +31,7 @@ namespace WpfApp1
                                           .FirstOrDefault();
                 if (_query.NazwaPostaci == null)
                 {
-                    Nazwa_postaci.Text = "Nie stworzono postaci";
+                    Nazwa_postaci.Text = "Brak postaci";
                     Nazwa_postaci.IsEnabled = true;
                     Klasa.IsEnabled = true;
                     Frakcja.IsEnabled = true;
@@ -110,6 +110,9 @@ namespace WpfApp1
                         query.KlasaID = Convert.ToInt32(Klasa.Text);
                         query.FrakcjaID = Convert.ToInt32(Frakcja.Text);
                         b.SaveChanges();
+                        CharacterSelect characterSelect = new CharacterSelect(_zalogowany);
+                        characterSelect.Show();
+                        this.Close();
                     }
                     catch (Exception)
                     {
@@ -124,5 +127,11 @@ namespace WpfApp1
             }
         }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            World characterSelect = new World(_zalogowany);
+            characterSelect.Show();
+            this.Close();
+        }
     }
 }
