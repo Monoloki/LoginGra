@@ -17,7 +17,7 @@ namespace WpfApp1
 {
 
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Okno logowania do gry
     /// </summary>
     public partial class MainWindow : Window
     {

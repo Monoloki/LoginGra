@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for CharacterSelect.xaml
+    /// Okno wyboru postaci z funkcjonalnością wejścia do świata, wylogowania, lub stworzenia postaci jeżeli nie została już jakaś przypisana do konta.
     /// </summary>
     public partial class CharacterSelect : Window
     {

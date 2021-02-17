@@ -10,7 +10,7 @@
 
         <Grid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Background="White" >
             <Image Margin="118,71,491,10" Source="Image1.png" Stretch="Fill"/>
-            <Button Content="Wejdz Do świata" HorizontalAlignment="Left" Margin="564,362,0,0" VerticalAlignment="Top" Width="113" Height="33" Click="Button_Click_2"/>
+            <Button Content="Wejdź Do świata" HorizontalAlignment="Left" Margin="564,362,0,0" VerticalAlignment="Top" Width="113" Height="33" Click="Button_Click_2"/>
         </Grid>
 
         <Label Content="Wybór postaci" HorizontalAlignment="Left" Margin="77,13,0,0" VerticalAlignment="Top" Height="67" Width="267" FontSize="40" FontFamily="Segoe UI Emoji" Foreground="Black"/>

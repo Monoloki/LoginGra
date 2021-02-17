@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for CreatingAccount.xaml
+    /// Okno pozwalające na stworzenie konta z rolą Gracz.
     /// </summary>
     public partial class CreatingAccount : Window
     {

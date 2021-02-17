@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for World.xaml
+    /// Przykładowy ekran gry.
     /// </summary>
     public partial class World : Window
     {
