@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="CreatingAccount" Height="450" Width="800">
+        Title="CreatingAccount" Height="450" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button Content="Powrót" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <TextBox x:Name="Login" HorizontalAlignment="Center" Height="23" Margin="341,135,311,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" HorizontalContentAlignment="Center"/>
